@@ -1,0 +1,74 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+main{
+  background-color: #181419;;
+}
+header{
+  
+  background-color: #9f3647;
+  color: #ffffff;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  display: flex;
+  justify-content: flex-end;
+}
+header > div {
+  margin-left: 20px;
+  display: flex;
+  align-items: center; 
+}
+.sesion{
+  margin: 15px 10px ;
+  background-color: #181419;
+  color: white;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.sesion:hover{
+  background-color: #9b2135;
+  cursor: pointer;
+}
+
+.peliculas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+
+}
+
+/* Estilos para las imágenes */
+.imagenes img {
+  max-width: auto; /* Establece el ancho máximo de las imágenes al ancho del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+  display: block; /* Asegura que las imágenes se muestren como bloques */
+  margin: 0 auto; /* Centra horizontalmente las imágenes dentro de sus contenedores */
+  padding: 10px; /* Añade espacio alrededor de las imágenes */
+}
+
+footer{
+  background-color: #9f3647;
+  color: #ffffff;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+footer .final {
+  display: flex;
+  justify-content: center;
+}
+
+footer .final p {
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+}
